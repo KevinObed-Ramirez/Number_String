@@ -74,9 +74,59 @@ function getMode(){
     var n4 = 1;
     var n5 = 1;
     var n6 = 1;
+    var isaiah = Math.max(n1,n2,n3,n4,n5,n6)
 
-    if (one == two){
+    if(isaiah === n1){
+        output.innerHTML = " " +first + "is the mode and appears " + n1;
+    }
+
+    if (one === two){
         n1 ++;
     }
-    if
+    if (one === three){
+        n1 ++;
+    }
+    if (one === four){
+        n1 ++;
+    }
+    if (one === five){
+        n1 ++;
+    }
+    if (one === six){
+        n1 ++;
+    }
+    
+
+    if (two === three){
+        n2 ++;
+    }
+    if (two === four){
+        n2 ++;
+    }
+    if (two === five){
+        n2 ++;
+    }
+    if (two === five){
+        n2 ++;
+    }
+    if (two === six){
+        n2 ++;
+    }
+    
+    if (three === four){
+        n3 ++;
+    }if (three === five){
+        n3 ++;
+    }if (three === six){
+        n3 ++;
+    }
+    
+    
+    if (four === five){
+        n4 ++;
+    }
+    if (four === six){
+        n4 ++;
+    }
+    
 }
