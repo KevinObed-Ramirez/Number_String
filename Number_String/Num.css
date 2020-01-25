@@ -1,0 +1,22 @@
+html{
+    background: linear-gradient(rgb(134, 0, 230),rgb(149, 0, 255),rgb(180, 8, 189),rgb(201, 6, 255));
+    color: white;
+    font-size: large;
+    background-attachment: fixed;
+}
+form{
+    font-size: 40px;
+}
+input{
+    border: solid black 2px;
+    font-size: 25px;
+}
+header h2{
+    font: bold;
+    text-align: center;
+    font-size: 45px ;
+}
+button{
+    text-align: center;
+    font-size: 25px;
+}
