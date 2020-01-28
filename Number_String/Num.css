@@ -7,9 +7,21 @@ html{
 form{
     font-size: 40px;
 }
+h2{
+    border: solid 2px black;
+    border-radius: 20px;
+}
+p {
+   text-align: center;
+}
+article{
+    text-align: center;
+    font-size: 40px;
+}
 input{
     border: solid black 2px;
     font-size: 25px;
+    margin-right: 20px;
 }
 header h2{
     font: bold;
@@ -19,4 +31,5 @@ header h2{
 button{
     text-align: center;
     font-size: 25px;
+    margin-left: 10px;
 }

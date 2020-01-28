@@ -57,11 +57,40 @@ function getSmallest(){
 
 //Function to get the median
 function getMedian(){
+    var first = parseFloat(doc1.value);
+    var second = parseFloat(doc2.value);
+    var third = parseFloat(doc3.value);
+    var fourth = parseFloat(doc4.value);
+    var fifth = parseFloat(doc5.value);
+    var sixth = parseFloat(doc6.value);
+
+    var p1 = 0;
+    var p2 = 0;
+    var p3 = 0;
+    var p4 = 0;
+    var p5 = 0;
+    var p6 = 0;
+
+    p1 = Math.min(first, second, third, fourth, fifth, sixth);
+
+    if(p1 === first){
+        first = second;
+        second = third;
+        third = fourth;
+        fourth = fifth;
+        fifth = sixth
+    }
+    if( p1 === second){
+        second = third;
+        third = fourth;
+        fourth = fifth;
+        fifth = sixth;
+    }
 
 }
 //Function to get the mode
 function getMode(){
-    var first = parseFloat(doc1.value) ;
+    var first = parseFloat(doc1.value);
     var second = parseFloat(doc2.value);
     var third = parseFloat(doc3.value);
     var fourth = parseFloat(doc4.value);
@@ -130,3 +159,16 @@ function getMode(){
     }
     
 }
+//Function for the order
+function getOrder(){
+    var first = parseFloat(doc1.value);
+    var second = parseFloat(doc2.value);
+    var third = parseFloat(doc3.value);
+    var fourth = parseFloat(doc4.value);
+    var fifth = parseFloat(doc5.value);
+    var sixth = parseFloat(doc6.value);
+    
+    var list = [first, second,third,fourth,fifth,sixth];
+    var sorted = list.sort((a,b) => a-b);
+}
+
