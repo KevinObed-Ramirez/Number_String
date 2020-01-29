@@ -168,7 +168,9 @@ function getOrder(){
     var fifth = parseFloat(doc5.value);
     var sixth = parseFloat(doc6.value);
     
-    var list = [first, second,third,fourth,fifth,sixth];
-    var sorted = list.sort((a,b) => a-b);
+    var list = [first,second,third,fourth,fifth,sixth];
+    var sorted = list.sort((a,b) => a - b);
+
+    output.innerHTML = sorted;
 }
 
